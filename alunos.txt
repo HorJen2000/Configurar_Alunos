@@ -1,0 +1,3 @@
+matricula;nome;email
+Allan da Silva Leal;13000;allangames@gmail.com
+William Augusto Felipe Martins;13002;willaugust@outlook.com
