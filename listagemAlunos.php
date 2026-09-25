@@ -20,8 +20,8 @@ if (!file_exists("alunos.txt")) {
         if ($linha != "") {
             $dados = explode(";", trim($linha));
             
-            $matricula = $dados[0];
-            $nome = $dados[1];
+            $nome = $dados[0];
+            $matricula = $dados[1];
             $email = $dados[2];
             
            $tabelaAlunos .= "<tr>";
