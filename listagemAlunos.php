@@ -26,8 +26,8 @@ if (!file_exists("alunos.txt")) {
             
            $tabelaAlunos .= "<tr>";
            $tabelaAlunos .= "<tr>";
-           $tabelaAlunos .= "<td>" . $matricula . "</td>";
            $tabelaAlunos .= "<td>" . $nome . "</td>";
+           $tabelaAlunos .= "<td>" . $matricula . "</td>";
            $tabelaAlunos .= "<td>" . $email . "</td>";
 
            $tabelaAlunos .= "<td>";
@@ -72,8 +72,8 @@ if (!file_exists("alunos.txt")) {
     <table border="1">
 
     <tr>
-        <th>Matrícula</th>
         <th>Nome</th>
+        <th>Matricula</th>
         <th>Email</th>
     </tr>
 
