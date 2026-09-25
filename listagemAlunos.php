@@ -25,7 +25,6 @@ if (!file_exists("alunos.txt")) {
             $email = $dados[2];
             
            $tabelaAlunos .= "<tr>";
-           $tabelaAlunos .= "<tr>";
            $tabelaAlunos .= "<td>" . $nome . "</td>";
            $tabelaAlunos .= "<td>" . $matricula . "</td>";
            $tabelaAlunos .= "<td>" . $email . "</td>";
