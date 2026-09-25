@@ -4,7 +4,7 @@ $tabelaAlunos = "";
 
 if (!file_exists("alunos.txt")) {
     $arqAluno = fopen("alunos.txt", "w") or die("Erro ao criar o arquivo");
-    $linha = "matricula;nome;email\n";
+    $linha = "nome;email;matricula\n";
     fwrite($arqAluno, $linha);
     fclose($arqAluno);
 } 
